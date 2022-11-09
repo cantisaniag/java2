@@ -6,8 +6,8 @@ function myFunction(totalAPagar, precioCantidad, descuento) {
   var categoria = document.getElementById("categoria1").value;
   var descuento = precioCantidad * categoria;
   var totalAPagar = precioCantidad - descuento;
-  document.getElementById("titulo").value= "Total a pagar: $" + totalAPagar
+  document.getElementById("titulo").value= "Total a pagar: $" + totalAPagar;
   console.log("precio x cantidad " +(precioCantidad));
   console.log("descuento de $ " +(descuento));
   console.log("total a pagar:$" +(totalAPagar));
-}
+};
